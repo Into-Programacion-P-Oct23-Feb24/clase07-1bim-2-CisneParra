@@ -33,6 +33,7 @@ public class Ejemplo06 {
         int contador = 1;
         int limite;
         
+        
         do {
             operacion = tabla * contador;
             System.out.printf("%d x %d = %d\n", tabla, contador, operacion);
