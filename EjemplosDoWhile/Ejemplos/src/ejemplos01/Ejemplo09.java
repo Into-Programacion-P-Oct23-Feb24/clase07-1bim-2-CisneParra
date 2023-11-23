@@ -52,6 +52,11 @@ public class Ejemplo09 {
 
         // promedio = suma / contador_calificaciones;
         promedio = (double) suma / contador_calificaciones;
+        /*
+        las variables suma y contador son enteras, pero la variable promedio es de tipo double,
+        asi que como no se permite ingresar valores decimales en el programa, se uisa el () double
+        para que suma se convierta en double y que salga bien el resultado
+        */
         cadenaFinal = String.format("%s\nPromedio de calificaciones: %.2f",
                 cadenaFinal,
                 promedio);
