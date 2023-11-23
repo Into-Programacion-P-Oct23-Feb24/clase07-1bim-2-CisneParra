@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+este programa permite que al dar un
+valor base se le pueda elevar a una potencia
  */
 package ejemplos01;
 
